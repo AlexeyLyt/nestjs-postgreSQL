@@ -9,7 +9,7 @@ export class ExpressOrder extends Order {
     status: string,
     deliveryTime: number,
   ) {
-    super(id, clientId, productId, status);
+    super();
     this.deliveryTime = deliveryTime;
   }
   @ApiProperty()

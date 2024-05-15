@@ -24,6 +24,7 @@ export class CatalogService {
     product.name = productDto.name; //заполняем поля объекта Product
     product.desc = productDto.desc;
     product.price = productDto.price;
+    product.inStock = productDto.inStock;
     await this.productRepository.save(product); //сохраняем объект Product в БД
     return product; //возвращаем объект Product
   }
