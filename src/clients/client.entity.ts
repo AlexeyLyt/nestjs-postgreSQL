@@ -23,7 +23,7 @@ export class Client {
   surname: string;
   @ApiProperty()
   @Column()
-  phoneNumber: number;
+  phoneNumber: string;
   @ApiProperty()
   @Column()
   email: string;

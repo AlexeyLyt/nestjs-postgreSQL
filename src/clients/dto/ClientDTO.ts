@@ -5,8 +5,8 @@ export class CreateClientDto {
   name: string;
   @ApiProperty({ example: 'Иванов', description: 'Фамилия' })
   surname: string;
-  @ApiProperty({ example: 89123456789, description: 'Телефон' })
-  phoneNumber: number;
+  @ApiProperty({ example: '89123456789', description: 'Телефон' })
+  phoneNumber: string;
   @ApiProperty({ example: 'ivanov@mail.ru', description: 'Эл. почта' })
   email: string;
   @ApiProperty({
